@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import Features from "./components/features";
+import Services from "./components/services";
 import Hero from "./components/hero";
 import Newsletter from "./components/newsletter";
 import Testimonials from "./components/testimonials";
@@ -23,7 +23,7 @@ export default function App() {
     <main className="grow">
       <PageIllustration />
       <Hero />
-      <Features />
+      <Services />
       <Zigzag />
       <Testimonials />
       <Newsletter />
