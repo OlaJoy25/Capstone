@@ -1,7 +1,33 @@
+import { useEffect } from "react";
+import Features from "./components/features";
+import Hero from "./components/hero";
+import Newsletter from "./components/newsletter";
+import Testimonials from "./components/testimonials";
+import Zigzag from "./components/zigzag";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
+import PageIllustration from "./components/page-illustration";
+import Footer from "./components/ui/footer";
+
 export default function App() {
+  useEffect(() => {
+    AOS.init({
+      once: true,
+      disable: "phone",
+      duration: 600,
+      easing: "ease-out-sine",
+    });
+  });
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  )
+    <main className="grow">
+      <PageIllustration />
+      <Hero />
+      <Features />
+      <Zigzag />
+      <Testimonials />
+      <Newsletter />
+      <Footer />
+    </main>
+  );
 }
