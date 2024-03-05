@@ -7,13 +7,8 @@ export default function Zigzag() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4">
-              Reach goals that matter
-            </div>
+            Attain Meaningful Milestones Together            </div>
             <h1 className="h2 mb-4">One product, unlimited solutions</h1>
-            <p className="text-xl text-gray-400">
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-              officia deserunt mollit laborum — semper quis lectus nulla.
-            </p>
           </div>
 
           {/* Items */}
@@ -27,7 +22,7 @@ export default function Zigzag() {
               >
                 <img
                   className="max-w-full mx-auto md:max-w-none h-auto"
-                  src={"/features-03-image-01.png"}
+                  src={"/cyberattack.jpeg"}
                   width={540}
                   height={405}
                   alt="Features 01"
@@ -40,15 +35,15 @@ export default function Zigzag() {
               >
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   <div className="font-architects-daughter text-xl text-purple-600 mb-2">
-                    More speed. Less spend
+                  Cybersecurity Landscape in Africa
                   </div>
-                  <h3 className="h3 mb-3">Keep projects on schedule</h3>
+                  <h3 className="h3 mb-3">What about it?</h3>
                   <p className="text-xl text-gray-400 mb-4">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                  Cybercrime worldwide has increased significantly, with Africa experiencing the highest average number of cyberattacks (1258) 
+                  and an 8% surge in global weekly due to limited security awareness and the inavailability of services that render cybersecurity solutions to African businesses',
+                  posing severe threats digital assets, private data, and operations, costing some countries 10% of their GDP.
                   </p>
-                  <ul className="text-lg text-gray-400 -mb-2">
+                  {/*<ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
                       <svg
                         className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
@@ -79,7 +74,7 @@ export default function Zigzag() {
                       </svg>
                       <span>Amet consectetur adipiscing elit</span>
                     </li>
-                  </ul>
+                  </ul>*/}
                 </div>
               </div>
             </div>
@@ -93,7 +88,7 @@ export default function Zigzag() {
               >
                 <img
                   className="max-w-full mx-auto md:max-w-none h-auto"
-                  src={"/features-03-image-02.png"}
+                  src={"/consult.jpg"}
                   width={540}
                   height={405}
                   alt="Features 02"
@@ -106,15 +101,15 @@ export default function Zigzag() {
               >
                 <div className="md:pl-4 lg:pl-12 xl:pl-16">
                   <div className="font-architects-daughter text-xl text-purple-600 mb-2">
-                    More speed. Less spend
+                    Proposed solution
                   </div>
-                  <h3 className="h3 mb-3">Keep projects on schedule</h3>
+                  <h3 className="h3 mb-3">By an African, For Africans</h3>
                   <p className="text-xl text-gray-400 mb-4">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                  In order to lessen the impact of this problem, businesses should have access to reasonably 
+                  priced and efficient consulting services that are tailored to the particular requirements of African enterprises. 
+                  These services should instruct businesses on how to improve their security posture and safeguard their assets, including money and reputation.
                   </p>
-                  <ul className="text-lg text-gray-400 -mb-2">
+                  {/*<ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
                       <svg
                         className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
@@ -145,7 +140,7 @@ export default function Zigzag() {
                       </svg>
                       <span>Amet consectetur adipiscing elit</span>
                     </li>
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
             </div>
@@ -159,7 +154,7 @@ export default function Zigzag() {
               >
                 <img
                   className="max-w-full mx-auto md:max-w-none h-auto"
-                  src={"/features-03-image-03.png"}
+                  src={"/goal.jpeg"}
                   width={540}
                   height={405}
                   alt="Features 03"
@@ -172,15 +167,18 @@ export default function Zigzag() {
               >
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   <div className="font-architects-daughter text-xl text-purple-600 mb-2">
-                    More speed. Less spend
+                    Way Forward
                   </div>
-                  <h3 className="h3 mb-3">Keep projects on schedule</h3>
+                  <h3 className="h3 mb-3">Our Goal</h3>
                   <p className="text-xl text-gray-400 mb-4">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                  Provide tailored cybersecurity consulting frameworks that take into account the particular needs and 
+                  constraints of African firms and offer strategies that ensure cost-effectiveness without
+                  compromising effectiveness. Guaranteeing the accessibility and availability of cybersecurity 
+                  advisory services throughout Africa.
+
+
                   </p>
-                  <ul className="text-lg text-gray-400 -mb-2">
+                   {/*<ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
                       <svg
                         className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
@@ -211,7 +209,7 @@ export default function Zigzag() {
                       </svg>
                       <span>Amet consectetur adipiscing elit</span>
                     </li>
-                  </ul>
+                  </ul>*/}
                 </div>
               </div>
             </div>
