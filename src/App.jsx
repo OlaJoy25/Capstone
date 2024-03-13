@@ -10,15 +10,16 @@ import "aos/dist/aos.css";
 import PageIllustration from "./components/page-illustration";
 import { Navbar } from "./components/Navbar";
 import Footer from "./components/ui/footer";
-import { Route, Routes } from "react-router-dom";
-import { Experts} from "./components/pages/experts";
-import { Booking} from "./components/pages/booking";
-import { Chatbot} from "./components/pages/chatbot";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Experts } from "./components/pages/experts";
+import { Booking } from "./components/pages/booking";
+import { Faq} from "./components/pages/faq";
+import { Blog  }   from "./components/pages/blog";
 
 
 
 
-  
+
 export default function App() {
   useEffect(() => {
     AOS.init({
@@ -33,21 +34,23 @@ export default function App() {
       <PageIllustration />
       <Navbar />
       <Routes>
-          {/* <Route path ="/" element={<Welcome/>}/> */}
+        <Route path="/" element={<main>
+          <Hero />
+          <Services />
+          <Zigzag />
+          <Testimonials />
+          <Newsletter />
+          <Footer /></main>} />
 
-         
-         <Route path ="/experts" element={<Experts/>}/>
-         <Route path ="/booking" element={<Booking/>}/>
-         <Route path ="/chatbot" element={<Chatbot/>}/> 
-         
+
+        <Route path="/experts" element={<Experts />} />
+        <Route path="/booking" element={<Booking />} />
+        <Route path="/faq"      element={<Faq />} />
+        <Route path="/blog"     element={<Blog />} />
+
       </Routes>
-      <Hero />
-      <Services />
-      <Zigzag />
-      <Testimonials />
-      <Newsletter />
-      <Footer />
+
     </main>
 
   );
-}
+};
