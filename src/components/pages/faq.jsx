@@ -4,7 +4,6 @@ export const Faq = () => {
     return <div class="py-4 max-w-screen-lg mx-auto">
     <div class="text-center mb-16">
         <p class="mt-4 text-sm leading-7 text-gray-500 font-regular">
-            F.A.Q
         </p>
         <h3 class="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-900">
             Frequently Asked <span class="text-indigo-600">Questions</span>
@@ -14,7 +13,6 @@ export const Faq = () => {
     <div class="px-10 sm:px-16 sm:flex items-start mb-10">
 
         <h3 class="py-3 font-bold text-lg text-gray-900 w-3/12">
-            Technical
         </h3>
         <div class="w-9/12">
             <div class="flex items-start mb-8">
@@ -86,7 +84,6 @@ export const Faq = () => {
     <div class="px-10 sm:px-16 sm:flex items-start mb-10">
 
         <h3 class="py-3 font-bold text-lg text-gray-900 w-3/12">
-            Billing
         </h3>
         <div class="w-9/12">
             <div class="flex items-start mb-8">
