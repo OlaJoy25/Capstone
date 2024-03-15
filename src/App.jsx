@@ -44,7 +44,6 @@ export default function App() {
 
 
         <Route path="/experts" element={<Experts />} />
-        <Route path="/booking" element={<Booking />} />
         <Route path="/faq"      element={<Faq />} />
         <Route path="/blog"     element={<Blog />} />
 

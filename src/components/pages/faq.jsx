@@ -13,6 +13,7 @@ export const Faq = () => {
     <div class="px-10 sm:px-16 sm:flex items-start mb-10">
 
         <h3 class="py-3 font-bold text-lg text-gray-900 w-3/12">
+            Technical
         </h3>
         <div class="w-9/12">
             <div class="flex items-start mb-8">
@@ -31,9 +32,8 @@ export const Faq = () => {
                     </svg>
                 </div>
                 <div class="text-md">
-                    <h1 class="text-gray-900 font-semibold mb-2">What might be your first question?</h1>
-                    <p class="text-gray-500 text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores
-                        impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</p>
+                    <h1 class="text-gray-900 font-semibold mb-2">What is Cybersecurity and why is it important?</h1>
+                    <p class="text-gray-500 text-sm">Cybersecurity is the discipline of defending computer networks, systems, and data against illegal access, cyberattacks, and data breaches. It is essential in the workplace to secure confidential data, keep operations running smoothly, and uphold stakeholder and customer confidence.</p>
                 </div>
             </div>
             <div class="flex items-start mb-8">
@@ -52,9 +52,8 @@ export const Faq = () => {
                     </svg>
                 </div>
                 <div class="text-md">
-                    <h1 class="text-gray-900 font-semibold mb-2">What might be your first question?</h1>
-                    <p class="text-gray-500 text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores
-                        impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</p>
+                    <h1 class="text-gray-900 font-semibold mb-2">What are the Indicators of Cyberattacks at the workplace?</h1>
+                    <p class="text-gray-500 text-sm">Unusual network traffic patterns, unanticipated system malfunctions or slowdowns, and efforts by unauthorized users to gain unauthorized access to critical data or systems can all be signs of a workplace cyberattack.</p>
                 </div>
             </div>
             <div class="flex items-start mb-8">
@@ -73,9 +72,8 @@ export const Faq = () => {
                     </svg>
                 </div>
                 <div class="text-md">
-                    <h1 class="text-gray-900 font-semibold mb-2">What might be your first question?</h1>
-                    <p class="text-gray-500 text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores
-                        impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</p>
+                    <h1 class="text-gray-900 font-semibold mb-2">What should I do when I notice a cyberattack?</h1>
+                    <p class="text-gray-500 text-sm">As soon as there's a cyberattack on your network, unplug from the internet and isolate the compromised systems.</p>
                 </div>
             </div>
         </div>
@@ -84,6 +82,7 @@ export const Faq = () => {
     <div class="px-10 sm:px-16 sm:flex items-start mb-10">
 
         <h3 class="py-3 font-bold text-lg text-gray-900 w-3/12">
+            Support
         </h3>
         <div class="w-9/12">
             <div class="flex items-start mb-8">
