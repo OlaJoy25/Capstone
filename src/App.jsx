@@ -12,7 +12,6 @@ import { Navbar } from "./components/Navbar";
 import Footer from "./components/ui/footer";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Experts } from "./components/pages/experts";
-import { Booking } from "./components/pages/booking";
 import { Faq} from "./components/pages/faq";
 import { Blog  }   from "./components/pages/blog";
 
@@ -44,8 +43,8 @@ export default function App() {
 
 
         <Route path="/experts" element={<Experts />} />
-        <Route path="/faq"      element={<Faq />} />
-        <Route path="/blog"     element={<Blog />} />
+        <Route path="/faq"     element={<Faq />} />
+        <Route path="/blog"    element={<Blog />} />
 
       </Routes>
 

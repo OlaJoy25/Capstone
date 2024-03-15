@@ -33,10 +33,3 @@ nav ul li a{
     margin: 0 0.5rem;
     border-radius: 0.5rem;
 }
-.button-container {
-    display: flex;
-    justify-content: center;
-    align-items: center; /* Optional: Center vertically */
-    height: [desired height]; /* Optional: Set container height for vertical centering */
-  }
-  
