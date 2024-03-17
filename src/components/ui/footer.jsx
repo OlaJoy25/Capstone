@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 export default function Footer() {
   return (
     <footer>
@@ -11,11 +11,10 @@ export default function Footer() {
               <div className="mb-2">
                 {/* Logo */}
                 <Link to="/" className="inline-block" aria-label="Cruip">
-                  <img src={"/logo.png"} alt="Logo" />
+                  <img src={"/logo.png"} alt="Logo" className="!h-[100px]" />
                 </Link>
               </div>
-              <div className="text-gray-400">
-              </div>
+              <div className="text-gray-400"></div>
             </div>
           </div>
 
