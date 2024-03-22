@@ -7,7 +7,6 @@ import Zigzag from "./components/zigzag";
 import TawkMessengerReact from '@tawk.to/tawk-messenger-react';
 
 
-
 import AOS from "aos";
 import "aos/dist/aos.css";
 import PageIllustration from "./components/page-illustration";
