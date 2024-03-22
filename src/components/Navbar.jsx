@@ -1,5 +1,3 @@
-import React from "react";
-
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 
@@ -7,7 +5,7 @@ export const Navbar = () => {
   return (
     <nav className="w-full">
       <Link className="title">HAVEN </Link>
-      <ul className="flex items-center gap-8">
+      <ul className="flex items-center gap-8 pr-8">
         <li>
           <Link to="/">Home</Link>
         </li>

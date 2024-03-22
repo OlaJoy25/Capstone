@@ -2,9 +2,7 @@ import React, { useState } from 'react';
 
 const FormComponent = () => {
   const [formData, setFormData] = useState({
-    name: '',
     email: '',
-    message: ''
   });
 
   const handleChange = (e) => {
@@ -29,9 +27,7 @@ const FormComponent = () => {
         console.log('Form submitted successfully');
         // Optionally, you can reset the form fields after successful submission
         setFormData({
-          name: '',
           email: '',
-          message: ''
         });
       } else {
         console.error('Failed to submit form');
@@ -42,27 +38,20 @@ const FormComponent = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <div>
-        <label htmlFor="name">Name:</label>
-        <input type="text" id="name" name="name" value={formData.name} onChange={handleChange} />
+    <form className="w-full lg:w-1/2" onSubmit={handleSubmit}>
+      <div className="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:max-w-none">
+        <input type="email" value={formData.email} onChange={handleChange} className="w-full appearance-none bg-purple-700 border border-purple-500 focus:border-purple-300 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-purple-400" placeholder="Your best email…" aria-label="Your best email…" />
+        <a className="btn text-purple-600 bg-purple-100 hover:bg-white shadow cursor-pointer" href="#0">Subscribe</a>
       </div>
-      <div>
-        <label htmlFor="email">Email:</label>
-        <input type="email" id="email" name="email" value={formData.email} onChange={handleChange} />
-      </div>
-      <div>
-        <label htmlFor="message">Message:</label>
-        <textarea id="message" name="message" value={formData.message} onChange={handleChange} />
-      </div>
-      <button type="submit">Submit</button>
     </form>
+
+
   );
 };
 
 
 
- 
+
 export default function Newsletter() {
   return (
     <section>
@@ -93,12 +82,8 @@ export default function Newsletter() {
             </div>
 
             {/* CTA form */}
-            <form className="w-full lg:w-1/2">
-              <div className="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:max-w-none">
-                <input type="email" className="w-full appearance-none bg-purple-700 border border-purple-500 focus:border-purple-300 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-purple-400" placeholder="Your best email…" aria-label="Your best email…" />
-                <a className="btn text-purple-600 bg-purple-100 hover:bg-white shadow" href="#0">Subscribe</a>
-              </div>
-            </form>
+
+            <FormComponent />
 
           </div>
 

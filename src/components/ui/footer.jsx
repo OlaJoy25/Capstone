@@ -2,26 +2,16 @@ import { Link } from "react-router-dom";
 export default function Footer() {
   return (
     <footer>
-      <div className="py-12 md:py-16">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6">
-          {/* Top area: Blocks */}
-          <div className="grid md:grid-cols-12 gap-8 lg:gap-20 mb-8 md:mb-12">
-            {/* 1st block */}
-            <div className="md:col-span-4 lg:col-span-5">
-              <div className="mb-2">
-                {/* Logo */}
-                <Link to="/" className="inline-block" aria-label="Cruip">
-                  <img src={"/logo.png"} alt="Logo" className="!h-[100px]" />
-                </Link>
-              </div>
-              <div className="text-gray-400"></div>
-            </div>
-          </div>
+      <div className="py-12 md:py-16 w-full flex justify-center flex-col">
+        <div className="max-w-6xl mx-auto px-4 flex flex-col justify-center items-center sm:px-6">
+          <Link to="/" className="inline-block" aria-label="Cruip">
+            <img src={"/logo.png"} alt="Logo" className="!h-[100px]" />
+          </Link>
 
           {/* Bottom area */}
-          <div className="md:flex md:items-center md:justify-between">
+          <div className="md:flex md:items-center flex-col md:justify-center gap-4 w-full">
             {/* Social links */}
-            <ul className="flex mb-4 md:order-1 md:ml-4 md:mb-0">
+            <ul className="flex md:order-1 md:mb-0">
               <li>
                 <Link
                   to="/"
