@@ -26,7 +26,7 @@ export default function App() {
     });
   });
   return (
-    <main className="grow">
+    <main className="grow overflow-hidden">
       <div className="App">
         <TawkMessengerReact
           propertyId="65f73745cc1376635adb91e2"
