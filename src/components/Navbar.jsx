@@ -1,10 +1,16 @@
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 
+
 export const Navbar = () => {
   return (
     <nav className="w-full">
       <Link className="title">HAVEN </Link>
+      <div className="menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
       <ul className="flex items-center gap-8 pr-8">
         <li>
           <Link to="/">Home</Link>
