@@ -21,7 +21,7 @@ export const Experts = () => {
                             <p class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">Joycelyn has the rare capacity to convert difficult technical ideas into workable plans, enabling our clients to make wise choices to successfully reduce risks.</p>
                             <ul class="flex space-x-4 sm:mt-0">
                                 <li>
-                                <a href="https://www.linkedin.com/in/joycelyn-ajike-407b85204">
+                                <a href="https://www.linkedin.com/in/joycelyn-ajike-407b85204"  target="_blank">
                                     <svg
                                         className="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"
                                     > 
@@ -44,7 +44,7 @@ export const Experts = () => {
                             <p class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">Olayinka has been in the information security and privacy field for more than ten years. She is skilled at navigating the complex world of cybersecurity,and making sure our clients' data is safe and their privacy is respected.</p>
                             <ul class="flex space-x-4 sm:mt-0">
                                 <li>
-                                <a href="https://www.linkedin.com/in/olayinka-naa-dzama-wilson-kofi-08a4aa7/">
+                                <a href="https://www.linkedin.com/in/olayinka-naa-dzama-wilson-kofi-08a4aa7/"  target="_blank">
                                     <svg
                                         className="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"
                                     >
@@ -67,7 +67,7 @@ export const Experts = () => {
                             <p class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">Sunday is our trusted officer. He has a solid background in Governance, Risk, and Compliance (GRC) and carefully aligns our cybersecurity tactics with industry standards and regulatory regulations, strengthening our clients' risk management frameworks with accuracy and foresight.</p>
                             <ul class="flex space-x-4 sm:mt-0">
                                 <li>
-                                <a href="https://www.linkedin.com/in/sunday-azeez-695042188/">
+                                <a href="https://www.linkedin.com/in/sunday-azeez-695042188/"  target="_blank">
                                     <svg
                                         className="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"
                                     >
@@ -90,7 +90,7 @@ export const Experts = () => {
                             <p class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">Faiza contributes a lot of experience in quickly identifying, evaluating, and handling security issues as a certified CompTIA Security+ professional and a specialist in Security Operations Center (SOC) administration, strengthening our clients' defenses against cyberattacks.</p>
                             <ul class="flex space-x-4 sm:mt-0">
                                 <li>
-                                <a href="https://www.linkedin.com/in/faiza-seidu-adam-591261132/">
+                                <a href="https://www.linkedin.com/in/faiza-seidu-adam-591261132/"  target="_blank">
                                     <svg
                                         className="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"
                                     >

@@ -57,7 +57,7 @@ export const Blog = () => {
                 <a
                   href="https://medium.com/@fiqrifirdaus/introduction-to-cybersecurity-for-beginners-understanding-the-digital-security-world-f136896cda85"
                   class="inline-flex items-center font-medium text-primary-600 dark:text-primary-500 hover:underline"
-                >
+                  target="_blank">
                   Read more
                   <svg
                     class="ml-2 w-4 h-4"
@@ -119,7 +119,7 @@ export const Blog = () => {
                 <a
                   href="https://medium.com/@elainnaciaramella/cyber-security-a-top-priority-for-small-businesses-471b376fe690"
                   class="inline-flex items-center font-medium text-primary-600 dark:text-primary-500 hover:underline"
-                >
+                  target="_blank">
                   Read more
                   <svg
                     class="ml-2 w-4 h-4"
@@ -180,7 +180,7 @@ export const Blog = () => {
                 <a
                   href="https://medium.com/@amirhamid/three-steps-to-successfully-advocate-cybersecurity-at-the-workplace-55f11e874285"
                   class="inline-flex items-center font-medium text-primary-600 dark:text-primary-500 hover:underline"
-                >
+                  target="_blank">
                   Read more
                   <svg
                     class="ml-2 w-4 h-4"
@@ -239,7 +239,7 @@ export const Blog = () => {
                 <a
                   href="https://medium.com/swlh/workplace-of-tomorrow-overcoming-it-problems-with-next-gen-technology-285996d6319c"
                   class="inline-flex items-center font-medium text-primary-600 dark:text-primary-500 hover:underline"
-                >
+                  target="_blank">
                   Read more
                   <svg
                     class="ml-2 w-4 h-4"
@@ -299,7 +299,7 @@ export const Blog = () => {
                 <a
                   href="https://medium.com/high-tech-security-systems-at-workplace/in-the-21st-century-the-improvement-of-technology-has-been-rising-d4b39461d0a3"
                   class="inline-flex items-center font-medium text-primary-600 dark:text-primary-500 hover:underline"
-                >
+                  target="_blank">
                   Read more
                   <svg
                     class="ml-2 w-4 h-4"
